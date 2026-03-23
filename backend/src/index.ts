@@ -13,7 +13,7 @@ app.use(clerkMiddleware())
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-app.get("/", (req, res) => {
+app.get("/api/health", (req, res) => {
     res.json({ message: "Welcome to Productify API - Powered by PostgreSQL, Drizzle ORM & Clerk Auth",
     endpoints: {
       users: "/api/users",
