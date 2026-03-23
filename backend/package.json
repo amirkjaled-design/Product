@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "nodemon",
     "build": "npm install && npm ",
-    "start": "node backend/index.js",
+    "start": "node backend/index.ts",
     "db:push": "drizzle-kit push"
   },
   "keywords": [],
